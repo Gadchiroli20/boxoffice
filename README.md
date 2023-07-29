@@ -1,1 +1,76 @@
-boxoffice.html
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxoffice</title>
+    <style>
+        body {
+            background-image: url(web-design-background.png);
+            background-size: cover;
+        }
+
+        fieldset {
+            padding-left: 50px;
+        }
+
+        h3 {
+            text-decoration: underline;
+            font-family: cursive;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <h1>Registration Form</h1>
+                <h3>Personal Detail</h3>
+
+                <label for="name">Enter Name</label><br>
+                <input type="text" placeholder="Enter Your name">
+                <br><br>
+                <label for="sirname">Enter Sirname</label><br>
+                <input type="text" placeholder="Enter Your Lastname">
+                <br><br>
+                <label for="email">Enter User ID</label><br>
+                <input type="email">
+                <br><br>
+                <label for="password">Enter Your Password</label><br>
+                <input type="password" maxlength="8"><br><br>
+                <label for="password">Re-Type Your Password</label><br>
+                <input type="password" maxlength="8"><br><br>
+                <input type="file" name="fileuplode" accept="image">
+                <h3>Select your language</h3>
+                <select name="Dropdown">
+                    <option value="language">English</option>
+                    <option value="language">Marathi</option>
+                    <option value="language">Hindi</option>
+
+                </select>
+                <br><br>
+
+                <h3>Select Your gender</h3>
+                <input type="checkbox" name="gender" id="male">male
+                <input type="checkbox" name="gender" id="female">female
+                <br>
+                <h3>Select Your city</h3>
+                <input type="radio" name="city">Gadchiroli
+                <input type="radio" name="city">Chandrapur
+                <input type="radio" name="city">Wardha
+                <input type="radio" name="city">Nagpur
+                <br><br>
+                <input id="submit" type="submit" value="Submit">
+        </form>
+        </fieldset>
+    </div>
+
+
+</body>
+
+</html>
+
